@@ -6,9 +6,9 @@ PARALLEL_NUM=16
 mkdir ${CUR_DIR}/src
 cd ${CUR_DIR}/src
 
-sh ${CUR_DIR}/ubuntu_dependency_install.sh
+sh ${CUR_DIR}/install_dependency.sh
 
-sh ${CUR_DIR}/ubuntu_download_src.sh
+sh ${CUR_DIR}/download_src.sh
 
 
 echo "编译安装空间数据库"
